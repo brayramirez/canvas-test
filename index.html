@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <head>
+    <title>Canvas Test</title>
+    <style type="text/css">
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      canvas {
+        border: 1px
+        solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="bundle.js"></script>
+    <canvas id="canvas-container" width="500" height="500"></canvas>
+
+    <div>
+      <button class="add-shape" data-shape="square">Add Square</button>
+      <button class="add-shape" data-shape="triangle">Add Triangle</button>
+      <button class="add-shape" data-shape="circle">Add Circle</button>
+      <button class="add-shape" data-shape="star">Add Star</button>
+      <button id="remove-shape">Remove Selected Shape</button>
+    </div>
+
+    <div>
+      <p>
+        Please enable `ExperimentalCanvasFeatures` in
+        <a href="chrome://flags" target="_blank">chrome://flags</a>
+      </p>
+
+      <p>To <b>Move</b> shape: Select shape and drag with mouse</p>
+      <p>To <b>Resize</b> shape: Select shape and hold Ctrl Key then drag with mouse</p>
+      <p>To <b>Rotate</b> shape: Select shape and hold Shift Key then drag with mouse</p>
+    </div>
+  </body>
+</html>
