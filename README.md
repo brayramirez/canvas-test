@@ -1,7 +1,7 @@
 # Canvas API Sample App
 
 ## Setup instructions
-1. Clone repository: git@github.com:brayramirez/canvas-test.git
+1. Clone repository: `git@github.com:brayramirez/canvas-test.git`
 1. Run `npm install`
 1. To run tests: `npm test`
 1. To start app: `npm run start:dev`
