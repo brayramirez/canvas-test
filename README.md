@@ -5,6 +5,7 @@
 1. Run `npm install`
 1. To run tests: `npm test`
 1. To start app: `npm run start:dev`
+   * access page at port `8888`
 
 ## Technical Overview
 a. Application architecture summary
